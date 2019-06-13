@@ -23,5 +23,36 @@
 }
 
 /* Positioning Classes */
+#featured {
+  width:66%;
+  float:left;
+}
 
+#archive {
+  width: 33%;
+  float: right;
+}
 
+#deals {
+  margin-top: 10px;
+}
+
+#deals .shadow {
+  width: 313px;
+  float: left;
+  margin-left: 10px;
+}
+
+#deals .shadow:first-of-type {
+  margin-left: 0;
+}
+
+#details .wrapper div {
+  width: 313px;
+  float: left;
+  margin-left: 10px;
+}
+
+#details .wrapper div:first-of-type {
+  margin-left: 0;
+}
