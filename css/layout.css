@@ -16,6 +16,7 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
+  /*overflow:auto;*/
 }
 
 .clear {
@@ -24,4 +25,74 @@
 
 /* Positioning Classes */
 
+#featured {
+  float: left;
+/*  position: relative;*/
+  width: 64%;
+/*  margin: 0 5px 10px 0;*/
+  /*background: fff;*/
+}
 
+#archive {
+  float: left;
+  width: 32%;
+  margin: 0 5 10px 0px;
+}
+
+.col-1 {
+    float: left;
+    width: 32%;
+    margin-left: 2%;
+    /*margin: 10px 0 0 0;*/
+}
+/*
+.col-end-right {
+  float: left;
+  width: 32%;
+  margin: 10px 0 0 0;
+}
+
+.col-middle {
+  float: left;
+  width: 32%;
+  margin: 10px 17px 0 17px;
+}
+*/
+.white-box {
+  background: white;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.padding {
+  padding: 10px 0;
+}
+/*img[alt*="wet"] {
+margin: 20px;
+top: 0;
+left: 0;*/
+}
+
+#social {
+  display: inline;
+}
+/*
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}*/
+/*
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}*/
