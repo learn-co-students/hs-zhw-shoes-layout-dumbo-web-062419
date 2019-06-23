@@ -23,5 +23,26 @@
 }
 
 /* Positioning Classes */
+.summer-grass {
 
+  width: 64%;
+  margin-right: 2%;
+  float: left;
+}
 
+.archive-list {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+.featured-item {
+
+  float: left;
+  margin-left: 1%;
+  width: 32%
+}
+
+.first {
+  margin-left: 0%;
+}
